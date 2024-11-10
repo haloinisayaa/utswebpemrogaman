@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #090606;
+}
+
+h1, h2 {
+    color: #1f3868;
+}
+
+.bg-light {
+    background-color: #435c75 !important;
+}
+
+#hero {
+    background: url('foto/foto.3.jpeg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+

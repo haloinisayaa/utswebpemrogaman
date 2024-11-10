@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>madrasah aliyah alhikam</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <img src="foto/logo.1.jpg" alt="" width="30" height="24">
+        <a class="navbar-brand" href="#">MAHIKAM</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">home</a></li>
+                <li class="nav-item"><a class="nav-link" href="profile.html">profile</a></li>
+                <li class="nav-item"><a class="nav-link" href="contack.html">contack</a></li>
+                <li class="nav-item"><a class="nav-link" href="galeri.html">galeri</a></li>
+                <li class="nav-item"><a class="nav-link" href="our team.html">our team</a></li>
+                <li class="nav-item"><a class="nav-link" href="form registrasi.html">from registrasi</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Form Registrasi Sekolah</h2>
+    <form>
+      <!-- Nama Lengkap -->
+      <div class="form-group">
+        <label for="namaLengkap">Nama Lengkap</label>
+        <input type="text" class="form-control" id="namaLengkap" placeholder="Masukkan Nama Lengkap" required>
+      </div>
+      
+      <!-- Jenis Kelamin -->
+      <div class="form-group">
+        <label for="jenisKelamin">Jenis Kelamin</label>
+        <select class="form-control" id="jenisKelamin" required>
+          <option value="">Pilih Jenis Kelamin</option>
+          <option value="Laki-Laki">Laki-Laki</option>
+          <option value="Perempuan">Perempuan</option>
+        </select>
+      </div>
+
+      <!-- Tanggal Lahir -->
+      <div class="form-group">
+        <label for="tanggalLahir">Tanggal Lahir</label>
+        <input type="date" class="form-control" id="tanggalLahir" required>
+      </div>
+
+      <!-- Alamat -->
+      <div class="form-group">
+        <label for="alamat">Alamat</label>
+        <textarea class="form-control" id="alamat" rows="3" placeholder="Masukkan Alamat Lengkap" required></textarea>
+      </div>
+
+      <!-- Email -->
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Masukkan Email" required>
+      </div>
+
+      <!-- Nomor Telepon -->
+      <div class="form-group">
+        <label for="noTelepon">Nomor Telepon</label>
+        <input type="tel" class="form-control" id="noTelepon" placeholder="Masukkan Nomor Telepon" required>
+      </div>
+
+      <!-- Kelas -->
+      <div class="form-group">
+        <label for="kelas">Kelas</label>
+        <select class="form-control" id="kelas" required>
+          <option value="">Pilih Kelas</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+        </select>
+      </div>
+
+      <!-- Tombol Submit -->
+      <button type="submit" class="btn btn-primary btn-block">Daftar</button>
+    </form>
+  </div>
+  <footer id="footer" class="bg-primary text-white py-4">
+    <div class="container text-center">
+        <button type="button" class="btn btn-primary mt-3" data-toggle="contack" data-target="#contack">
+            kontak kami 0867 5427 8769
+        </button> 
+        <p>© 2024 Madrsah aliyah alhikam. Semua hak dilindungi.</p>
+    </div>   
+    
+</footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
